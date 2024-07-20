@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a4c9 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .faculty {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .faculty img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .faculty-details {
+            overflow: hidden;
+        }
+        .faculty-details h2 {
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .faculty-details p {
+            margin: 5px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Our Faculty</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Faculty 1 -->
+        <div class="faculty">
+            <img src="facultypic.jpg" alt="Faculty 1">
+            <div class="faculty-details">
+                <h2>faculty1</h2>
+                <p><strong>Title:</strong> Professor of Computer Science</p>
+                <p><strong>Specialization:</strong> Artificial Intelligence, Machine Learning</p>
+                <p><strong>Bio:</strong> Dr. John Doe has over 20 years of experience in teaching and research in the field of computer science. His primary research interests include artificial intelligence and machine learning.</p>
+            </div>
+        </div>
+
+        <!-- Faculty 2 -->
+        <div class="faculty">
+            <img src="faculty2.jpg" alt="Faculty 2">
+            <div class="faculty-details">
+                <h2>faculty2</h2>
+                <p><strong>Title:</strong>Associate Professor of Mathematics</p>
+                <p><strong>Specialization:</strong> Algebra, Number Theory</p>
+                <p><strong>Bio:</strong> Dr. Jane Smith specializes in algebra and number theory. She has published numerous papers in prestigious journals and is known for her innovative teaching methods.</p>
+            </div>
+        </div>
+
+        <!-- Faculty 3 -->
+        <div class="faculty">
+            <img src="faculty3.jpg" alt="Faculty 3">
+            <div class="faculty-details">
+                <h2>faculty3</h2>
+                <p><strong>Title:</strong> Assistant Professor of Physics</p>
+                <p><strong>Specialization:</strong> Quantum Mechanics, Astrophysics</p>
+                <p><strong>Bio:</strong> Dr. Alan Brown's research focuses on quantum mechanics and astrophysics. He has been awarded multiple grants for his groundbreaking work in these areas.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
